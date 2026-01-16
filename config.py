@@ -118,7 +118,7 @@ CMD_TXT = """<blockquote><b>» ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:</b></blockqu
 """
 #--------------------------------------------
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>• ʙʏ @Linkz_Wallah</b>") #set your Custom Caption here, Keep None for Disable Custom Caption
-PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False #set True if you want to prevent users from forwarding files from bot
+PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "True") == "True" else False #set True if you want to prevent users from forwarding files from bot
 #--------------------------------------------
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
@@ -133,17 +133,24 @@ UPI_ID = os.environ.get("UPI_ID", "kunaljaisinghpur@axl")
 QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4b8cf54757ba84a23f000-880a704ce5057adffa.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/NGPremiumXBot")
 #--------------------------------------------
-#Time and its price
-#7 Days
-PRICE1 = os.environ.get("PRICE1", "39 rs")
-#1 Month
-PRICE2 = os.environ.get("PRICE2", "49 rs")
-#3 Month
-PRICE3 = os.environ.get("PRICE3", "59 rs")
-#6 Month
-PRICE4 = os.environ.get("PRICE4", "69 rs")
-#1 Year
-PRICE5 = os.environ.get("PRICE5", "79 rs")
+
+# ─── PREMIUM SUBSCRIPTION PRICES ─── #
+
+# 7 Days (Trial – High Price)
+PRICE1 = os.environ.get("PRICE1", "₹39")
+
+# 1 Month (Basic)
+PRICE2 = os.environ.get("PRICE2", "₹99")
+
+# 3 Months (Value Pack)
+PRICE3 = os.environ.get("PRICE3", "₹199")
+
+# 6 Months (MOST POPULAR)
+PRICE4 = os.environ.get("PRICE4", "₹299")
+
+# 1 Year (BEST DEAL)
+PRICE5 = os.environ.get("PRICE5", "₹399")
+
 
 #===================(END)========================#
 
