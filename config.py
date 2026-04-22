@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8154426339:")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", ":")
 APP_ID = int(os.environ.get("APP_ID", "24955235")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "f317b3f7bbe390346d8b46868cff0de8") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -40,10 +40,10 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "arolinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "8a59f7197cfbac8f2fde46f209a9e8fc6504cb0b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "c55c566760e3be49e77dad33024e8f94c36c42fb")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 64800)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HTODLINKZ/13")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/HTODLINKZ/12")
 
 #--------------------------------------------
 
